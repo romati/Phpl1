@@ -15,7 +15,6 @@ $files = array_slice(scandir($big_image), 2);
 </head>
 
 <body>
-    <div class="">
         <div class="h_1">
             <h1>Фотогалерея</h1>
         </div>
@@ -25,8 +24,6 @@ $files = array_slice(scandir($big_image), 2);
                 <a rel="gallery" href="<?= $big_image . "/" . $files[$i] ?>" target="_blank"><img src="<?= $small_image . "/" . $files[$i] ?>" alt="" /></a>
             <?php } ?>
         </div>
-    </div>
-
 </body>
 
 </html>
